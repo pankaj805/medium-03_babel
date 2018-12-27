@@ -1,3 +1,4 @@
-require("babel-core/register");
+require("@babel/register");
+require("@babel/polyfill");
 var app = require('./app.js');
 app();
